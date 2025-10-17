@@ -1,0 +1,72 @@
+/* Full screen container with background */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Form styling */
+.register-form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.register-form label {
+  font-weight: bold;
+}
+
+/* Inputs */
+.register-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Submit button */
+.register-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #4338ca;
+}
+
+/* Bottom text */
+.register-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.register-text a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
